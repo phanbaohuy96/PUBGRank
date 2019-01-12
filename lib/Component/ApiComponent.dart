@@ -1,0 +1,7 @@
+import 'package:flutter/material.dart';
+
+class ApiComponent
+{
+  String apiKey = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmYzg4ZWQ4MC1mODU3LTAxMzYtNGJlZC0zNzI3MTgyMmE3NzUiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTQ3MjcwNTUyLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6Ii02NTc3OGJkOS1kYmNhLTQ3NTktODYwMy00Njk5NGVkZjI2ZTEifQ.APYMaLS7xzc5_tAwCxAoiXKpW7CxmGe3qWkwcvjI-0w";
+  
+}
