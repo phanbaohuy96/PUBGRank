@@ -35,9 +35,14 @@ class _LoadingView extends State<LoadingView> with SingleTickerProviderStateMixi
       backgroundColor: Colors.blueGrey,
       body: new Stack(
         children: <Widget>[
-          new Image.asset("images/im_bg.jpg",fit: BoxFit.fitHeight),
-          new Center(
+          new Image.asset("images/im_bg.jpg",fit: BoxFit.cover,
+            height: double.infinity,
+            width: double.infinity,
+            alignment: Alignment.center
+            ),
+          new Container(
             child: new Loader(),
+            alignment: Alignment.bottomRight,
           ),
         ],
       ),
